@@ -12,7 +12,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #2f363e;
+    /* background-color: #2f363e; */
+    background-image: url(background.jpg);
+     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #clock{
@@ -128,4 +131,22 @@ body{
     box-shadow: 1.5px 9px #555,
     4px 18px #555,
     7px 27px #555;
+}
+
+.title{
+    position: absolute;
+    font-size: 8em;
+    font-family: 500;
+    color: #ebe9e9;
+    text-align: center;
+    line-height: 0.6em;
+    z-index: 1000000000;
+    top: 30px;
+}
+h5{
+    position: absolute;
+    font-size: 0.7em;
+    font-weight: 700;
+    color: white;
+    bottom: 50px;
 }
